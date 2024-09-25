@@ -35,3 +35,20 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// memory -> Heap and stack
+
+// non primitive datatype -> Objects
+
+let userOne = {
+    userEmail : "harsh@gmail.com",
+    userId : 1234
+}
+
+let userTwo = userOne;
+
+userTwo.userEmail = "kaushik@gmail.com"
+
+console.log(userOne.userEmail);
+console.log(userTwo.userEmail);
+
