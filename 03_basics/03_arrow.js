@@ -43,7 +43,7 @@ const user = {
 
 
 const addTwo = (num1,num2) => ({username:"harsh"})      // to return object also we have to cover it with paranthesis , if we have to write it in implicitly then we have to cover it in parenthesis 
-
+// agar ye paranthesis laga do to automatically inka ek block bann jata h
 
 console.log(addTwo(2,3));
 // addTwo(2,3)
