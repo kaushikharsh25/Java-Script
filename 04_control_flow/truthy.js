@@ -43,3 +43,9 @@ console.log(val1);
 
 const iceTeaPrice = 100
 iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80")
+
+
+
+
+
+// i am changing some of the code to check the git status
