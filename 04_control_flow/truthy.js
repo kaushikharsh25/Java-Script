@@ -49,4 +49,4 @@ iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80")
 
 
 // i am changing some of the code to check the git status
-// i am changing some of the code to check the git status 2 
+// i am changing some of the code to check the git status 2 git status
