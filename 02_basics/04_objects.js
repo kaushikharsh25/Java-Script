@@ -28,6 +28,7 @@ const object3 = {5:"c",6:"d",}
 // const obj3 = {object1,object2}
 // console.log(obj3);
 
+// .assign(target,source)  // it is used to merge the objects
 // const obj3 = Object.assign(object1,object2)  // object1 is the target and object 2 is the source , we assign source in the target 
 // const obj3 = Object.assign({},object1,object2)   // now the target is {} and others are source , the ans for both cases will be same but it is preferable
 // console.log(obj3);
@@ -42,6 +43,7 @@ const user = [{user:"harsh" , id:1234} ,{user:"harsh" , id:1234},{user:"harsh" ,
 
 console.log(user[1].id);
 
+// Objects methods is used to get the keys and values of the objects in the form of array of objects and also to check the key is present in the object or not
 console.log(Object.keys(tinderuser));  // gives an array of keys
 console.log(Object.values(tinderuser));  // gives an array of keys
 console.log(Object.values(tinderuser));  // make an array of key value pair
@@ -53,7 +55,7 @@ console.log(tinderuser.hasOwnProperty('isloggedin'));
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-// destructuring of objects --> imp
+// destructuring of objects --> imp concept in react 
 
 const course = {
     course:"js in hindi",
@@ -62,7 +64,7 @@ const course = {
 }
 // course.couseinstructor
 
-// const {couseinstructor} = course
-const {couseinstructor:inst} = course
+// const {couseinstructor} = course  // it is used to get the value of the key from the object and store it in the variable
+const {couseinstructor:inst} = course  // 
 
 console.log(inst);

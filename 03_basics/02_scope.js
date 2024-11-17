@@ -14,7 +14,7 @@ one()
 
 if(true){
     const name = "harsh"
-    if(name==="harsh"){
+    if(name==="harsh"){  // this is a block scope and it is not accessible outside the block
         const website = "youtube"
         console.log(name+website);
     }
