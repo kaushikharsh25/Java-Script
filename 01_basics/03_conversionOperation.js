@@ -1,4 +1,4 @@
-let score = "3asd3"
+let score = "3as3"
 // if score is "33abc" then it also convert it in number but it will give special character NaN(Not a Number)
 
 // let score = null ; // it will give 0 as O/P so be carefull for the check conditions 
@@ -24,4 +24,5 @@ let someNumber = 32;
 console.log(typeof someNumber);
 
 let StringNumber = String(someNumber)
+console.log( StringNumber);
 console.log(typeof StringNumber);
