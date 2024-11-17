@@ -1,9 +1,10 @@
 // const coding = ["js", "ruby", "java", "python", "cpp"]
 
+// for-each loop will not return anything even if we use return statement
 
 // const values = coding.forEach( (item) => {
 //     //console.log(item);
-//     return item
+//     return item  
 // } )
 
 // console.log(values);
