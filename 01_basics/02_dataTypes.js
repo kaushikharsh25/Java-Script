@@ -10,5 +10,5 @@ let state = null
 
 // number , String , boolean , null => Stand alone value , undefined , symbol-> used for uniqueness , object 
 
-// console.log(typeof null);      // it like an error in language  // Object 
+// console.log(typeof null);      // it like an error in language , ans ->  Object 
 // console.log(typeof undefined);
