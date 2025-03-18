@@ -18,11 +18,13 @@
     div.id = Math.round(Math.random() * 10 + 1)
     div.setAttribute("title", "generated title")
     div.style.backgroundColor = "green"
-    div.style.padding = "12px"
-    // div.innerText = "Chai aur code"
+    div.style.padding = "12px" 
+    // div.innerText = "Chai aur code"  // this will replace the text of the div
+    // now we will add the text node to the div
     const addText = document.createTextNode("Chai aur code")
     div.appendChild(addText)
 
+    // now we will add this div to the body
     document.body.appendChild(div)
 </script>
 </html>
