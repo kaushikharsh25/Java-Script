@@ -5,7 +5,7 @@
 let name = "Harsh"
 let age = 12
 let isLogged = true
-let state = null
+let state 
 
 
 // number , String , boolean , null => Stand alone value , undefined , symbol-> used for uniqueness , object 
